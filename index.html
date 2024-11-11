@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e002882f03.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="images/logo.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <img class="menu" src="images/close.png" onclick="closemenu()" alt="">
+                </ul>
+                <img class="menu open" onclick="openmenu()" src="images/menu.png" alt="">
+            </nav>
+            <div class="folder">
+                <div class="text">
+                    <p>Web Developer</p>
+                    <h1>Hi, I'm <span>Priya Kumari</span> <br> from India</h1>
+                </div>
+                <div class="background"></div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------About section------------------------ -->
+    <div id="about">
+        <div class="contain">
+            <div class="box">
+                <div class="column1">
+                    <img src="images/image1.png" alt="">
+                </div>
+                <div class="column2">
+                    <h1 class="sub-title about">About me</h1>
+                    <p>Hi! I'm <span>Priya kumari</span> , a second-year Computer Science and Engineering student at
+                        <span> ABES Enginnering College</span>. I'm passionate about technology's potential to transform
+                        the world and solve complex challenges. What excites me most about computer science is the
+                        endless opportunity to learn, experiment, and create — from building smart applications to
+                        exploring the frontiers of artificial intelligence.</p>
+                    <p>When I’m not coding or studying, I love participating in hackathons, collaborating on open-source
+                        projects, and keeping up with the latest tech trends. I believe in the power of teamwork and
+                        creative problem-solving, and I’m always eager to connect with like-minded individuals who share
+                        a passion for innovation and growth.</p>
+                    <div class="box-2">
+                        <div class="title-section">
+                            <p class="title active-link" onclick="opentab('skills')">SKILLS</p>
+                            <p class="title" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="skills active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <p>HTML</p>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                </li>
+                                <li>
+                                    <p>Java Script</p>
+                                </li>
+                                <li>
+                                    <p>Canva</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="skills" id="education">
+
+                            <ul>
+                                <p>2018 - 2022</p>
+                                <li>
+                                    <p>VIDYA BAL BHAWAN SR. SEC. SCHOOL
+                                    </p>
+                                </li>
+                                <p>2023-2027</p>
+                                <li>
+                                    <p>BACHELOR OF TECHNOLOGY,</p>
+                                </li>
+                                <li>
+                                    <p>ABES ENGINEERING COLLEGE
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- -------------------------Services---------------------------- -->
+    <div id="services">
+        <div class="contain">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>HTML</h2>
+                    <p>I provide HTML development services to create well-structured, accessible, and user-friendly web
+                        pages. With a solid understanding of HTML, I can build clean, semantic markup that forms the
+                        foundation of any website. Whether you're looking for a simple static page or need help with
+                        creating layouts and forms, I ensure your website is both functional and easy to navigate. My
+                        focus is on writing clear and efficient code that enhances the overall structure and performance
+                        of your site.
+                    </p>
+                    <a href="learn">Learn more</a>
+                </div>
+                <div>
+                    <h2>CSS</h2>
+                    <p>I specialize in creating visually appealing, responsive, and well-structured designs using CSS.
+                        From styling simple web pages to building complex layouts with Flexbox and Grid, I ensure your
+                        website looks great across all devices. I also focus on enhancing user experience with smooth
+                        animations, transitions, and optimized styles. By following best practices for performance and
+                        accessibility, I create websites that are both beautiful and functional, ensuring they are
+                        visually engaging and easy to navigate.</p>
+                    <a href="learn">Learn more</a>
+                </div>
+                <div>
+                    <h2>Java Script</h2>
+                    <p>I offer JavaScript development services to add interactivity and dynamic functionality to
+                        websites. With a strong foundation in basic JavaScript, I can implement features like form
+                        validation, interactive elements, and simple animations to enhance user experience. I focus on
+                        writing clean, understandable code to ensure your website is both functional and easy to
+                        maintain. Whether you're looking to add small interactive features or improve website
+                        functionality, I can help bring your ideas to life with JavaScript.</p>
+                    <a href="learn">Learn more</a>
+                </div>
+                <div>
+                    <h2>Canva</h2>
+                    <p>I offer graphic design services using Canva to create visually appealing and professional designs
+                        for websites, social media, presentations, and more. Whether you need custom graphics, posters,
+                        logos, or marketing materials, I use Canva's powerful tools to craft designs that are both
+                        creative and aligned with your brand. With a focus on simplicity and aesthetic appeal, I ensure
+                        every design communicates your message clearly and effectively.
+
+                    </p>
+                    <a href="learn">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------Portfolio--------------------------- -->
+    <div id="portfolio">
+        <div class="contain">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work ">
+                    <img src="images/rockimg.png" alt="">
+                    <div class="layer">
+                        <h3>Rock, Paper, Scissor Game</h3>
+                        <p>The <b>Rock, Paper, Scissor Game</b>  can be implemented using HTML, CSS, and JavaScript. HTML provides the structure with buttons for the player to choose between Rock, Paper, or Scissors, and areas to display the results. CSS is used to style the page and make the game visually appealing. JavaScript handles the game logic: when the player clicks a button, a random choice is generated for the computer, and the winner is determined based on the rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock). The result is displayed on the page, indicating whether the player won, lost, or tied.</p>
+                        <a href="link"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="images/flipkartimg.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping Website</h3>
+                        <p>I created a <b>Flipkart clone</b> using HTML, CSS, and JavaScript, replicating the basic structure and design of the original e-commerce platform. The project includes product listings, a navigation bar, and a responsive layout that adapts to different screen sizes. This clone focuses on mimicking the user interface of Flipkart, providing an opportunity to practice front-end development and creating a visually appealing, functional website.</p>
+                        <a href="link"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="work ">
+                    <img src="images/resturantimg.png" alt="">
+                    <div class="layer">
+                        <h3>Online Resturant Website</h3>
+                        <p>I built a <b>restaurant website</b> for <b>"Happy Vibes"</b> using HTML, CSS, and JavaScript, focusing on a simple and attractive design. The website includes sections for the menu, about us, contact details, and a reservation form. While it is not fully responsive, it is optimized for desktop users, offering a user-friendly interface with vibrant colors and easy navigation. This project helped me practice basic front-end development and design principles for a restaurant-style website.</p>
+                        <a href="link"><img src="images/external-link.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <a href="more" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------------Contact-------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <img src="images/paper-plane.png" alt=""> priya0903kumari@gmail.com</p>
+                    <p> <img src="images/phone-call.png" alt="">8595357924</p>
+                    <div class="social-icons">
+                        <a href=""><img src="images/instagram.png" alt=""></a>
+                        <a href=""><img src="images/snapchat.png" alt=""></a>
+                        <a href=""><img src="images/linkedin.png" alt=""></a>
+                        <a href=""><img src="images/telegram.png" alt=""></a>
+
+                    </div>
+                    <a href="Resume/Priya kumari.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Enter your name" required>
+                        <input type="Email" name="email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="10 " placeholder="Enter your message">
+                    </textarea>
+                        <button class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Priya. </p>
+        </div>
+    </div>
+</body>
+<script src="portfolio.js"></script>
+
+</html>
