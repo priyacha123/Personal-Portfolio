@@ -1,0 +1,2 @@
+# Portfolio
+ This is my personal portfolio website built with HTML, CSS, and JavaScript. It showcases my skills, projects, and experience as a developer. The website includes sections such as "About Me," "Projects," "Skills," and "Contact," providing a clear and user-friendly layout for visitors to explore my work. The design is simple yet modern, highlighting the key technologies I have worked with and the projects I have completed. This portfolio serves as a reflection of my growth as a developer and is continuously updated with new projects and achievements.
